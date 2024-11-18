@@ -1,0 +1,92 @@
+header {
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+.judul {
+  padding: 20px;
+  font-weight: 600;
+}
+ul {
+  display: flex;
+  justify-content: end;
+  flex: 2;
+}
+li {
+  margin: 0 10px;
+  padding: 5px;
+  color: rgb(100, 123, 255);
+}
+.nav {
+  flex: 2;
+}
+li:hover {
+  background-color: rgb(80, 203, 244);
+  color: white;
+  border-radius: 100px;
+}
+.bagian1 {
+  display: flex;
+  background-color: #37517e;
+  padding: 40px;
+}
+.gambar {
+  width: 400px;
+  border-radius: 100px;
+}
+.holdergamabr {
+  flex: 2;
+}
+.text {
+  flex: 2;
+  padding: 100px 10px;
+
+  padding: 20px 0 30px;
+}
+.text1 {
+  color: white;
+  font-size: 40px;
+}
+.text2 {
+  color: whitesmoke;
+  margin: 0px;
+  font-size: 20px;
+}
+button {
+  margin: 10px 10px 0 0;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #37517e;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+button:hover {
+  background-color: rgb(35, 139, 242);
+}
+.bagian2 {
+  text-align: center;
+  margin: 0 ;
+}
+.t1 {
+  color: #37517e;
+  font-size: 30px;
+  margin: 30px 0 0 0;
+}
+.t2 {
+  font-weight: 200;
+  margin-top: 10px;
+}
+.cari {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+}
+button.subs{
+    border-radius: 100px;
+}
+
