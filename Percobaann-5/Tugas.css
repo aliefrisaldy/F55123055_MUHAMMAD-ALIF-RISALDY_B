@@ -1,0 +1,139 @@
+
+      header {
+        display: flex;
+        width: 100%;
+        background-color: white;
+      }
+
+      .navbar {
+        padding: 20px;
+        font-weight: 600;
+      }
+      ul {
+        display: flex;
+        justify-content: end;
+        flex: 2;
+      }
+      li {
+        margin: 0 10px;
+        padding: 5px;
+        color: rgb(100, 123, 255);
+      }
+      .nav {
+        flex: 2;
+      }
+      li:hover {
+        background-color: #37517e;
+        color: white;
+        border-radius: 100px;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      .judul {
+        text-align: center;
+        padding: 20px;
+        background-color: #37517e;
+        color: white;
+      }
+
+      /* Grid untuk kategori */
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+        padding: 20px;
+        background-color: white;
+      }
+
+      .grid-item {
+        text-align: center;
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 10px;
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .grid-item img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        background-color: #fff;
+        padding: 10px;
+      }
+
+      .grid-item p {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #333;
+      }
+
+      .grid-item:hover {
+        transform: scale(1.05);
+        background-color: #eaeaea;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        justify-content: space-between;
+      }
+
+      .flex-item {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        width: calc(100% / 5 - 20px); /* Menyesuaikan 5 kolom */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+        text-align: center;
+      }
+
+      .flex-item img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 350px;
+      }
+
+      .flex-item .price {
+        color: #e74c3c;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 0;
+      }
+
+      .flex-item:hover {
+        transform: scale(1.05);
+      }
+
+      .flex-item .discount {
+        background-color: #ffeb3b;
+        color: #d84315;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 3px;
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+
+      .flex-item .description {
+        font-size: 14px;
+        color: #555;
+        padding: 0 10px 10px;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #37517e;
+        color: white;
+        margin-top: 20px;
+      }
